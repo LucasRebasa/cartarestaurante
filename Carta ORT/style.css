@@ -81,3 +81,11 @@ footer{
     height: 200px;
     border-radius: 8px;
 }
+.boton{
+    cursor: pointer;
+    border: none;
+    padding: 8px;
+    background-color: rgba(4, 165, 4, 0.6);
+    color: #fff;
+    font-size: 15px;
+}
