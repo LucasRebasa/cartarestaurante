@@ -60,3 +60,10 @@ footer{
 .tarjeta:hover{
     background-color: #0008;
 }
+
+.hamburguesa-tipo img{
+    border-radius: 8px;
+    text-align: left;
+    max-width: 10%;
+    max-height: 10%;
+}
