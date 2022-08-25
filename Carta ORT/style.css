@@ -1,6 +1,9 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
 }
 #banner{
     width: 100%;
@@ -22,6 +25,12 @@ h1{
     width: 100%;
     background-color: rgb(119, 51, 5);
     padding: 20px;
+    text-align: center;
+}
+.container a img{
+    width: 220px;
+    height: 160px;
+    margin-left: 10px;
 }
 .container h2{
     text-align: center;
@@ -30,12 +39,12 @@ h1{
 }
 .informacion-container{
     background-color: rgb(82, 82, 82);
-    padding: 3px;
+    padding: 7px;
 }
 .informacion-item{
     background-color: rgb(129, 129, 129);
     margin: 20px;
-    padding: 5px;
+    padding: 15px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #222;
 }
@@ -61,9 +70,14 @@ footer{
     background-color: #0008;
 }
 
-.hamburguesa-tipo img{
+.comida-tipo p{
+    color: #fff;
+}
+
+.img-tipo{
     border-radius: 8px;
     text-align: left;
-    max-width: 10%;
-    max-height: 10%;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
 }
