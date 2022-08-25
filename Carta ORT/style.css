@@ -1,0 +1,62 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#banner{
+    width: 100%;
+    height: 500px;
+    margin-top: -20px;
+    padding-top: 150px;
+    text-align: center;
+    background-image: url(./img/banner.jpg);
+    background-position: center;
+    color: #fff;
+}
+h1{
+    font-size: 60px;
+}
+#banner p{
+    font-size: 15px;
+}
+.container{
+    width: 100%;
+    background-color: rgb(119, 51, 5);
+    padding: 20px;
+}
+.container h2{
+    text-align: center;
+    color: #bbb;
+    padding-bottom: 10px;
+}
+.informacion-container{
+    background-color: rgb(82, 82, 82);
+    padding: 3px;
+}
+.informacion-item{
+    background-color: rgb(129, 129, 129);
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #222;
+}
+.informacion-item p{
+    color: #bbb;
+}
+.tarjeta{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.089);
+    color: #fff;
+}
+.tarjeta a img{
+    width: 100%;
+    height: 200px;
+}
+footer{
+    background-color: #222;
+    padding: 20px;
+    color: #fff;
+}
+
+.tarjeta:hover{
+    background-color: #0008;
+}
