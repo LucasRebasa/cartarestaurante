@@ -108,6 +108,78 @@
         </div>
     </div>
 
+    <div class="container">
+
+        <h2>Contanos tu experiencia</h2>
+        <form action="">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre">
+                <br>
+                <label for="apellido">Apellido: </label>
+                <input type="text" id="apellido" name="apellido">
+                <br>
+                <label for="edad">Edad: </label>
+                <input type="number" id="edad" name="edad" min="18" max="99">
+                <br>
+                <label for="Mail">Correo: </label>
+                <input type="email" placeholder="Suscribite a nuestro newsletter" id="email" name="email">
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Sobre tu visita</legend>
+                <label for="visita">Fecha de visita: </label>
+                <input type="date" min="2015-01-01" max="2030-12-31">
+                <br>
+                <br>
+                <label for="referencia">Cómo nos conociste? </label>
+                <br>
+                <select name="referencia" id="referencia">
+                    <option value="0">Seleccione...</option>
+                    <option value="1">Redes Sociales</option>
+                    <option value="2">Sitio Web</option>
+                    <option value="3">Recomendación</option>
+                    <option value="4">Publicidad</option>
+                    <option value="5">Otros</option>
+                </select>
+
+                <br>
+                <br>
+                <label for="menu">Cuál fue tu pedido: </label>
+                <br>
+                <input type="checkbox" name="menu" value="1"> Pizza
+                <input type="checkbox" name="menu" value="2"> Hamburguesa
+                <input type="checkbox" name="menu" value="3"> Pasta
+                <input type="checkbox" name="menu" value="4"> Ensalada
+                <br>
+                <br>
+                <label for="calificacion">Cómo calificarías la atención de nuestro personal?</label>
+                <br>
+                <input type="radio" name="calificacion" value="1"> Malo
+                <input type="radio" name="calificacion" value="2"> Regular
+                <input type="radio" name="calificacion" value="3" checked> Medio
+                <input type="radio" name="calificacion" value="4"> Bueno
+                <input type="radio" name="calificacion" value="5"> Excelente
+                <br>
+                <br>
+                <label for="comentarios">Dejanos tu comentario: </label>
+                <br>
+                <textarea cols="50" rows="10" placeholder="Ayudanos a mejorar para brindarte una mejor atención en tu próxima visita..."></textarea>
+                <br>
+
+
+            </fieldset>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+
+        </form>
+
+    </div>
+
     <footer>
         <div class="footer-item">
             <h4><i class="fa-solid fa-phone"></i> : 4564-6987</h4>
