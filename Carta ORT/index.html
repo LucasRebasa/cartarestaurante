@@ -111,20 +111,20 @@
     <div class="container">
 
         <h2>Contanos tu experiencia</h2>
-        <form action="">
+        <form action="" method="post">
             <fieldset>
                 <legend>Datos Personales</legend>
                 <label for="nombre">Nombre: </label>
-                <input type="text" id="nombre" name="nombre">
+                <input type="text" id="nombre" name="nombre" required>
                 <br>
                 <label for="apellido">Apellido: </label>
-                <input type="text" id="apellido" name="apellido">
+                <input type="text" id="apellido" name="apellido" required>
                 <br>
                 <label for="edad">Edad: </label>
-                <input type="number" id="edad" name="edad" min="18" max="99">
+                <input type="number" id="edad" name="edad" min="18" max="99" required>
                 <br>
                 <label for="Mail">Correo: </label>
-                <input type="email" placeholder="Suscribite a nuestro newsletter" id="email" name="email">
+                <input type="email" placeholder="Suscribite a nuestro newsletter" id="email" name="email" required>
                 <br>
             </fieldset>
             <br>
