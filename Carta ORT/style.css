@@ -99,3 +99,8 @@ form{
     margin: 0 auto;
     width: 90%;
 }
+.error{
+    color: red;
+    margin: 0;
+    padding: 0;
+}
